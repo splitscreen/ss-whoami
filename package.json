@@ -1,0 +1,45 @@
+{
+  "name": "ss-whoami",
+  "version": "0.0.0",
+  "description": "Nameplate graphic bundle",
+  "homepage": "http://splitscreenshow.com/open-source/",
+  "author": {
+    "name": "David Thomas",
+    "email": "guy@synth3.tk",
+    "url": "http://synth3.tk"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "nodecg-bundle",
+    "lower-third",
+    "names",
+    "nameplate"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.7.0",
+    "dashboardPanels": [
+      {
+        "name": "ss-whoami",
+        "title": "Name Tags",
+        "width": 2,
+        "file": "ss-whoami.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}
